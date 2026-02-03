@@ -1,258 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Essential Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Professional project dashboard for managing and tracking your projects, analytics, and team performance in real-time." />
-  <meta name="keywords" content="project management, dashboard, analytics, project tracking, task management" />
-  <meta name="author" content="Your Company Name" />
-  <meta name="robots" content="index, follow" />
-  
-  <!-- Open Graph Meta Tags (Social Media) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Project Dashboard - Manage Your Projects Efficiently" />
-  <meta property="og:description" content="Professional project dashboard for managing and tracking your projects, analytics, and team performance." />
-  <meta property="og:url" content="https://yourwebsite.com" />
-  <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
-  
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Project Dashboard - Manage Your Projects Efficiently" />
-  <meta name="twitter:description" content="Professional project dashboard for managing and tracking your projects, analytics, and team performance." />
-  <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
-  
-  <!-- Title -->
-  <title>Project Dashboard - Manage Your Projects Efficiently | Your Company</title>
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://yourwebsite.com" />
-  
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css" />
-  
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Project Dashboard",
-    "description": "Professional project management dashboard",
-    "url": "https://yourwebsite.com",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web Browser",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    }
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Create your account and join our platform today.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | Power Athlete</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <!-- Optional modern formats -->
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/auth.css">
 </head>
-<body itemscope itemtype="https://schema.org/WebPage">
 
-  <!-- Skip to main content for accessibility -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+<body>
 
-  <!-- Mobile sidebar toggle -->
-  <input type="checkbox" id="sidebar-toggle" aria-hidden="true" hidden />
-
-  <!-- Backdrop overlay -->
-  <label for="sidebar-toggle" class="backdrop" aria-label="Close navigation menu"></label>
-
-  <!-- HEADER -->
-  <header class="header" role="banner">
-    <label for="sidebar-toggle" class="hamburger" role="button" aria-label="Toggle navigation menu" tabindex="0">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </label>
-    
-    <h1 itemprop="name">Project Dashboard</h1>
-    
-    <nav class="header-actions" aria-label="User actions">
-      <button class="btn-icon" type="button" aria-label="View notifications">
-        <span role="img" aria-label="Notification bell">🔔</span>
-      </button>
-      <button class="btn-icon" type="button" aria-label="View profile">
-        <span role="img" aria-label="User profile">👤</span>
-      </button>
+<header class="site-header">
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="/" class="nav__logo">
+                <img src="logo.png" alt="Power Athlete Logo" class="nav__logo-img">
+                <span class="nav__logo-text"></span>
+            </a>
+        </div>
     </nav>
-  </header>
+</header>
 
-  <!-- SIDEBAR NAVIGATION -->
-  <aside class="sidebar" role="navigation" aria-label="Main navigation">
-    <div class="sidebar-header">
-      <h2>Navigation Menu</h2>
-      <label for="sidebar-toggle" class="close-btn" role="button" aria-label="Close navigation menu" tabindex="0">
-        <span aria-hidden="true">✕</span>
-      </label>
+<main class="auth">
+    <section class="auth__section">
+        <div class="auth__container">
+
+            <!-- Signup Card -->
+            <div class="auth-card">
+
+                <!-- Logo / Brand -->
+                <div class="auth-card__header">
+                    <img src="assets/images/Power Athlete W.png" alt="Power Athlete Logo" class="auth-card__logo">
+                    <h1 class="auth-card__title">Power Athlete Signup</h1>
+                    <p class="auth-card__subtitle">
+                        Fuel the Athlete Within
+                    </p>
+                </div>
+
+                <!-- Social Login Buttons -->
+                <div class="social-login">
+                    <button class="social-btn social-btn--google" type="button">
+                        <svg class="social-btn__icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                        </svg>
+                        <span class="social-btn__text"></span>
+                    </button>
+
+                    <button class="social-btn social-btn--facebook" type="button">
+                        <svg class="social-btn__icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                        <span class="social-btn__text"></span>
+                    </button>
+
+                    <button class="social-btn social-btn--instagram" type="button">
+                        <svg class="social-btn__icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span class="social-btn__text"></span>
+                    </button>
+                </div>
+
+                <!-- Divider -->
+                <div class="divider">
+                    <span class="divider__text">OR</span>
+                </div>
+
+                <!-- Signup Form -->
+                <form class="auth-form" action="/register" method="POST" novalidate>
+                    @csrf
+
+                    <div class="auth-form__group">
+                        <label class="auth-form__label" for="name">Full Name</label>
+                        <input
+                            class="auth-form__input"
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="John Doe"
+                            required>
+                    </div>
+
+                    <div class="auth-form__group">
+                        <label class="auth-form__label" for="email">Email Address</label>
+                        <input
+                            class="auth-form__input"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@email.com"
+                            required>
+                    </div>
+
+                    <div class="auth-form__group auth-form__group--grid">
+                        <div>
+                            <label class="auth-form__label" for="password">Password</label>
+                            <input
+                                class="auth-form__input"
+                                type="password"
+                                id="password"
+                                name="password"
+                                required>
+                        </div>
+
+                        <div>
+                            <label class="auth-form__label" for="password_confirmation">
+                                Confirm Password
+                            </label>
+                            <input
+                                class="auth-form__input"
+                                type="password"
+                                id="password_confirmation"
+                                name="password_confirmation"
+                                required>
+                        </div>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="auth-form__actions">
+                        <button class="btn btn--primary btn--full" type="submit">
+                            Create Account
+                        </button>
+                    </div>
+
+                    <script src="js/app.js"></script>
+
+                    <!-- Secondary Links -->
+                    <div class="auth-form__links">
+                        <p class="auth-form__text">
+                            Already have an account?
+                            <a href="/login" class="auth-form__link">Login here</a>
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__container">
+        <p class="site-footer__text">
+            © 2026 Power Athlete. All rights reserved.
+        </p>
     </div>
-    
-    <nav aria-label="Primary">
-      <ul role="list">
-        <li><a href="#home" aria-current="page" class="active">
-          <span role="img" aria-label="Home icon">🏠</span>
-          <span>Home</span>
-        </a></li>
-        <li><a href="#analytics">
-          <span role="img" aria-label="Analytics icon">📊</span>
-          <span>Analytics</span>
-        </a></li>
-        <li><a href="#projects">
-          <span role="img" aria-label="Projects icon">📁</span>
-          <span>Projects</span>
-        </a></li>
-        <li><a href="#settings">
-          <span role="img" aria-label="Settings icon">⚙️</span>
-          <span>Settings</span>
-        </a></li>
-      </ul>
-    </nav>
-  </aside>
-
-  <!-- MAIN CONTENT -->
-  <main id="main-content" class="main" role="main">
-    
-    <!-- Statistics Section -->
-    <section class="stats-section" aria-labelledby="stats-heading">
-      <h2 id="stats-heading" class="visually-hidden">Project Statistics Overview</h2>
-      
-      <div class="stats">
-        <article class="stat-card" itemscope itemtype="https://schema.org/AggregateRating">
-          <div class="stat-icon" role="img" aria-label="Growth chart">📈</div>
-          <div class="stat-info">
-            <p class="stat-label">Total Projects</p>
-            <h3 class="stat-value" itemprop="ratingValue">24</h3>
-          </div>
-        </article>
-        
-        <article class="stat-card">
-          <div class="stat-icon" role="img" aria-label="Checkmark">✅</div>
-          <div class="stat-info">
-            <p class="stat-label">Completed</p>
-            <h3 class="stat-value">18</h3>
-          </div>
-        </article>
-        
-        <article class="stat-card">
-          <div class="stat-icon" role="img" aria-label="Hourglass">⏳</div>
-          <div class="stat-info">
-            <p class="stat-label">In Progress</p>
-            <h3 class="stat-value">6</h3>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects-section" aria-labelledby="projects-heading">
-      <h2 id="projects-heading" class="section-title">Recent Projects</h2>
-      
-      <div class="cards" role="list">
-        
-        <!-- Project Card 1 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">Website Redesign</h3>
-            <span class="badge badge-success" role="status" aria-label="Status: Active">Active</span>
-          </header>
-          <p class="card-text" itemprop="description">Modern responsive website with new branding and improved user experience</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">Design</span>
-            <span class="tag" itemprop="keywords">Frontend</span>
-          </footer>
-        </article>
-
-        <!-- Project Card 2 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">Mobile App Development</h3>
-            <span class="badge badge-warning" role="status" aria-label="Status: Pending">Pending</span>
-          </header>
-          <p class="card-text" itemprop="description">Cross-platform mobile application development using modern frameworks</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">React Native</span>
-            <span class="tag" itemprop="keywords">API</span>
-          </footer>
-        </article>
-
-        <!-- Project Card 3 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">API Integration</h3>
-            <span class="badge badge-success" role="status" aria-label="Status: Active">Active</span>
-          </header>
-          <p class="card-text" itemprop="description">Third-party service integration and comprehensive testing implementation</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">Backend</span>
-            <span class="tag" itemprop="keywords">Testing</span>
-          </footer>
-        </article>
-
-        <!-- Project Card 4 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">Database Migration</h3>
-            <span class="badge badge-info" role="status" aria-label="Status: Planned">Planned</span>
-          </header>
-          <p class="card-text" itemprop="description">Migrate legacy database to new cloud infrastructure for better performance</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">Database</span>
-            <span class="tag" itemprop="keywords">DevOps</span>
-          </footer>
-        </article>
-
-        <!-- Project Card 5 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">Security Audit</h3>
-            <span class="badge badge-danger" role="status" aria-label="Status: Critical">Critical</span>
-          </header>
-          <p class="card-text" itemprop="description">Comprehensive security review and critical updates implementation</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">Security</span>
-            <span class="tag" itemprop="keywords">Compliance</span>
-          </footer>
-        </article>
-
-        <!-- Project Card 6 -->
-        <article class="card" role="listitem" itemscope itemtype="https://schema.org/Project">
-          <header class="card-header">
-            <h3 itemprop="name">Performance Optimization</h3>
-            <span class="badge badge-success" role="status" aria-label="Status: Active">Active</span>
-          </header>
-          <p class="card-text" itemprop="description">Improve load times and overall application performance metrics</p>
-          <footer class="card-footer">
-            <span class="tag" itemprop="keywords">Optimization</span>
-            <span class="tag" itemprop="keywords">Frontend</span>
-          </footer>
-        </article>
-        
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer" role="contentinfo">
-    <p>
-      <span>&copy; <time datetime="2026">2026</time> Project Dashboard</span>
-      <span aria-hidden="true"> | </span>
-      <span>Made with <span role="img" aria-label="love">❤️</span></span>
-    </p>
-    <nav aria-label="Footer navigation">
-      <ul role="list">
-        <li><a href="#privacy">Privacy Policy</a></li>
-        <li><a href="#terms">Terms of Service</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  </footer>
+</footer>
 
 </body>
 </html>
